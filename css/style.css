@@ -1,0 +1,133 @@
+header{
+  position: sticky;
+  top: 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.header{
+  
+  max-width: 900px;
+  top: 0;
+  left: auto;
+  right: auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+.main{
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+/*   background-color: lightgrey; */
+}
+
+#Bio, #Archievement, #Experience, #Training{
+  display: flex;
+  max-width: 900px;
+  max-height: 2500px;
+  margin-bottom: 30px;
+}
+
+
+#article1{
+  flex-grow: 1.6;
+  background-image: url("../images/dude.jpg");
+  height: 400px;
+  width:  420px;
+  opacity: 0.5;
+  margin-right: 30px;
+  position: relative;
+}
+
+.headline {
+  position: relative;
+  top: 80px;
+  left: 140px;
+}
+
+.headline h1, h3 {
+  font-family: 'Anton', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2
+}
+
+.headline h1{
+  font-size: 5rem;
+}
+
+.headline h3{
+  font-size: 2.5rem;
+}
+
+#article2, #article4, #article6, #article8 {
+/*   background-color: green; */
+/*   height: 400px; */
+  flex-grow: 1.4;
+  max-width: 420px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.1rem;
+  
+}
+
+#article3, #article5, #article7{
+  flex-grow: 1.6;
+  width: 420px;
+}
+
+/* #article4{
+  width: 420px;
+} */
+
+blockquote {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  background: grey;
+  position: relative;
+/*   padding-top: 0px; */
+  padding-bottom: 50px;
+  padding-left: 20px;
+  line-height: 4rem;
+  margin: 0 30px 0 0;
+/*   quotes: '"'; */
+  }
+
+blockquote::before {
+  content: "\201C";
+  font-size: 7rem;
+  position: relative;
+  top: 10px;
+  left: 0px;
+  padding: auto;
+  margin: 0;
+  line-height: 0.8;
+}
+
+blockquote p{
+  margin: 0 auto;
+  padding: 0 auto;
+  position: relative;
+  top: -20px;
+  left: 30px;
+}
